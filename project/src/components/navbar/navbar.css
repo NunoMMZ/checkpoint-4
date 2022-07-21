@@ -1,5 +1,35 @@
+* {
+    text-decoration: none;
+    color: #000;
+}
+
 .navbar{
     background-color: #fff9f4;
     border-bottom: 1px solid #e0e0e0;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    border-bottom: #23515d 4px solid;
+
+}
+
+.navbar-txt{
+    font-size: 24px;
+    color: #000;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-txt a {
+    margin: 10px;
+}
+
+.navbar-item:hover {
+    background-color: #23515d ;
+    border-radius: 4px;
     
+
 }
