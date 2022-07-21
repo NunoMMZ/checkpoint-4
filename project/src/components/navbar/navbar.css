@@ -1,11 +1,9 @@
 * {
-    text-decoration: none;
     color: #000;
 }
 
 .navbar{
     background-color: #fff9f4;
-    border-bottom: 1px solid #e0e0e0;
     height: 70px;
     width: 100%;
     position: fixed;
@@ -19,17 +17,21 @@
     margin-left: 20px;
     margin-top: 10px;
     display: flex;
-    align-items: center;
+    justify-content: center;
 
 }
 
 .navbar-txt a {
     margin: 10px;
+
+}
+
+.navbar-item {
+    text-decoration: none;
 }
 
 .navbar-item:hover {
-    background-color: #23515d ;
-    border-radius: 4px;
-    
+    text-decoration-line: underline;
+    text-decoration-color: #23515d;
 
 }
