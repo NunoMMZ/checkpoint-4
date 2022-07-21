@@ -2,12 +2,15 @@ import {useContext} from 'react'
 import { GameStateContext } from '../../context/context'
 
 function Menu () {
-    const {GameState, setGameState} = useContext(GameStateContext)
+    const {GameState, setGameState, userName, setUserName} = useContext(GameStateContext)
     
     return (
         <div className="Menu">
         <label>Enter your name:</label>
-        <input type='text' placeholder="Ex. John Smith" />
+        <input type='text' placeholder="Ex. John Smith" onChange={(event) => {
+            setUserName(event.target.value);
+        }}
+        />
          <button 
          onClick={()=> {
              setGameState('playing');
