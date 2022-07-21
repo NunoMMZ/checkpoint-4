@@ -1,0 +1,37 @@
+* {
+    color: #000;
+}
+
+.navbar{
+    background-color: #fff9f4;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    border-bottom: #23515d 4px solid;
+
+}
+
+.navbar-txt{
+    font-size: 24px;
+    color: #000;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar-txt a {
+    margin: 10px;
+
+}
+
+.navbar-item {
+    text-decoration: none;
+}
+
+.navbar-item:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #23515d;
+
+}
