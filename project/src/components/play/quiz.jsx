@@ -1,4 +1,4 @@
-import "../App.css";
+import './quiz.css';
 
 export default function Quiz() {
     return (
