@@ -6,16 +6,17 @@ import Quiz from './components/play/quiz';
 
 
 export default function App() {
-  const [gameState, setGameState] = useState("")
-  const [username, setUsername] = useState("")
+  // const [gameState, setGameState] = useState("")
+  // const [username, setUsername] = useState("")
 
   return (
     <div className="App">
+      <Quiz />
       
-      <GameStateContext.Provider value={{gameState, setGameState, username, setUsername}}>
+      {/* <GameStateContext.Provider value={{gameState, setGameState, username, setUsername}}>
       {gameState === "menu" && <Menu />}
       {gameState === "playing" && <Quiz />}
-      </GameStateContext.Provider>
+      </GameStateContext.Provider> */}
     </div>
   );
 }
